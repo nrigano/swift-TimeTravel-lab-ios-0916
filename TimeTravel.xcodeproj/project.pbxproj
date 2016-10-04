@@ -12,6 +12,10 @@
 		5B830BA91DA43D2000BC5FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B830BA71DA43D2000BC5FD3 /* Main.storyboard */; };
 		5B830BAB1DA43D2000BC5FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B830BAA1DA43D2000BC5FD3 /* Assets.xcassets */; };
 		5B830BAE1DA43D2000BC5FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B830BAC1DA43D2000BC5FD3 /* LaunchScreen.storyboard */; };
+		95FFF9201DA4481500E60227 /* Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FFF91F1DA4481500E60227 /* Speed.swift */; };
+		95FFF9221DA44B5800E60227 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FFF9211DA44B5800E60227 /* Weather.swift */; };
+		95FFF9241DA44BD800E60227 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FFF9231DA44BD800E60227 /* Planet.swift */; };
+		95FFF9261DA44E8A00E60227 /* SpaceShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FFF9251DA44E8A00E60227 /* SpaceShip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		5B830BAA1DA43D2000BC5FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B830BAD1DA43D2000BC5FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B830BAF1DA43D2000BC5FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FFF91F1DA4481500E60227 /* Speed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Speed.swift; path = ../Speed.swift; sourceTree = "<group>"; };
+		95FFF9211DA44B5800E60227 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Weather.swift; path = ../Weather.swift; sourceTree = "<group>"; };
+		95FFF9231DA44BD800E60227 /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Planet.swift; path = ../Planet.swift; sourceTree = "<group>"; };
+		95FFF9251DA44E8A00E60227 /* SpaceShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpaceShip.swift; path = ../SpaceShip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				5B830BA51DA43D1F00BC5FD3 /* ViewController.swift */,
+				95FFF91F1DA4481500E60227 /* Speed.swift */,
+				95FFF9211DA44B5800E60227 /* Weather.swift */,
+				95FFF9231DA44BD800E60227 /* Planet.swift */,
+				95FFF9251DA44E8A00E60227 /* SpaceShip.swift */,
 				5B830BB51DA43D2F00BC5FD3 /* Supporting Files */,
 			);
 			path = TimeTravel;
@@ -145,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95FFF9261DA44E8A00E60227 /* SpaceShip.swift in Sources */,
+				95FFF9221DA44B5800E60227 /* Weather.swift in Sources */,
+				95FFF9201DA4481500E60227 /* Speed.swift in Sources */,
 				5B830BA61DA43D1F00BC5FD3 /* ViewController.swift in Sources */,
 				5B830BA41DA43D1F00BC5FD3 /* AppDelegate.swift in Sources */,
+				95FFF9241DA44BD800E60227 /* Planet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
